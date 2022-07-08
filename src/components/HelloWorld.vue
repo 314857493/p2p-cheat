@@ -28,9 +28,9 @@ const store = useStore();
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
   </p>
 
-  <button type="button" @click="store.increaseCounter()">
+  <a-button type="primary" @click="store.increaseCounter()">
     count is: {{ store.counter }}
-  </button>
+  </a-button>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
